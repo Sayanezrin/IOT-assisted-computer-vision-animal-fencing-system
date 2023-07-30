@@ -56,7 +56,7 @@ void setup() {
   // Initialize SGP30 sensor
   airSensor.begin();
   
-  // Print IP address
+     // Print IP address
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 }
